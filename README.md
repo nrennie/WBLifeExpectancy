@@ -1,4 +1,8 @@
-# WBLifeExpectancy
+# WBLifeExpectancy <img src="WBLifeExpectancy.png" align="right" width="120" />
+
+An R package for analysing and visualising World Bank life expectancy data.
+
+## Installation
 
 Install using:
 
