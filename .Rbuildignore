@@ -6,3 +6,4 @@ WBLifeExpectancy.png
 ^docs$
 ^pkgdown$
 ^\.github$
+^LICENSE\.md$
