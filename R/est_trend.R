@@ -29,8 +29,8 @@ est_trend <- function(input_vec,
   for (i in seq_len(length(test_years))) {
     test_year <- test_years[i]
     #select data
-    x <- year_vec[(which(year_vec == test_year - window_val + 1)):which(year_vec == test_year)]
-    y <- input_vec[(which(year_vec == test_year - window_val + 1)):which(year_vec == test_year)]
+    x <- year_vec[(which(year_vec == test_year - window_val + 1)):which(year_vec == test_year)] # nolint
+    y <- input_vec[(which(year_vec == test_year - window_val + 1)):which(year_vec == test_year)] # nolint
 
     #fit model
     mod <- stats::lm(y ~ x)

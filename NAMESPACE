@@ -2,4 +2,4 @@
 
 export(est_trend)
 export(theme_life_exp)
-import(ggplot2)
+importFrom(ggplot2,'%+replace%')
