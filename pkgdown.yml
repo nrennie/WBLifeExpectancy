@@ -1,9 +1,8 @@
-pandoc: 2.14.2
-pkgdown: 2.0.6
+pandoc: 3.1.11
+pkgdown: 2.1.0
 pkgdown_sha: ~
 articles: {}
-last_built: 2022-08-27T17:01Z
+last_built: 2024-07-25T14:43Z
 urls:
   reference: https://nrennie.github.io/WBLifeExpectancy/reference
   article: https://nrennie.github.io/WBLifeExpectancy/articles
-
